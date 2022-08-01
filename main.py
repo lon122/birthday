@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/gift/')
+@app.route('/brthday/')
 def products():
-    return render_template('gift.html')
+    return render_template('birthday.html')
 
 @app.route('/wrong/')
 def wrong():
