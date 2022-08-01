@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href= "/static/css/style.css">
+        <title>Пароль</title>
+  </head> 
+  <body> 
+      <script language="JavaScript">  
+            if (top.location.search=="") {
+            pass = prompt('Введите пароль');
+            if (pass=='1') // Ваш пароль акивации
+            { alert('Пароль принят'), top.location.href="/birthday/" } else { alert('Пароль непринят!'), top.location.href="/wrong/" }//Адрес страниц на которую перейдет пользователь при ошибке
+            };
+       </script>
+   </body>
+</html>
+
+
+  
